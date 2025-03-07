@@ -1,0 +1,21 @@
+class Solution(object):
+    def twoSum(self, nums, target):
+        a=0
+        b=1
+        test=True
+        while test :
+            
+            if (b==len(nums)) : 
+                a+=1
+                b=a+1
+            elif ((nums[a]+nums[b])==target):
+                test=False
+            else: 
+                b+=1
+        return a,b
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        
