@@ -1,5 +1,5 @@
 class Solution(object):
-    #define
+    #define localy
     def twoSum(self, nums, target):
         a=0
         b=1
